@@ -1,0 +1,22 @@
+{
+  "name": "book-store-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for managing books in a store built with Node.js, Express, and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"No test framework set up yet\""
+  },
+  "keywords": ["books", "api", "nodejs", "express", "mongodb"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
